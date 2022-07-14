@@ -20,6 +20,14 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+.no-cursor{
+    cursor: not-allowed;
+}
+
 ul {
     display: flex;
 }
@@ -50,6 +58,13 @@ button:active {
 
 p {
     line-height: 1.5;
+}
+
+.row__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* NAV */
@@ -285,12 +300,7 @@ h2 {
    background-color: rgba(115, 66, 214, 0.1);
 }
 
-.row__column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+
 
 /* FOOTER */
 
@@ -303,7 +313,8 @@ footer{
 }
 
 .footer__logo--img {
-    width: 160px;
+    width: 240px;
+    filter: grayscale(1) invert(1);
 }
 
 .footer__list {

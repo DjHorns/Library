@@ -262,3 +262,8 @@ h2 {
     margin-bottom: 8px;
     color: #fabf2a;
 }
+
+.book__price--normal {
+    color: #bfbfbf;
+    text-decoration: line-through;
+}

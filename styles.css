@@ -268,3 +268,10 @@ h2 {
     color: #bfbfbf;
     text-decoration: line-through;
 }
+
+
+/* FOOTER */
+
+footer{
+    background-color: rgba(115, 66, 214, 0.1);
+}
